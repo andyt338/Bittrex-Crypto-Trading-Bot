@@ -40,3 +40,5 @@ terraform apply
 ```
 curl http://serverpublicip/index.php
 ```
+
+* Also, the Amazon Linux instance which is created has its clock set to UTC time, so this will create a cron job at 10:00 UTC, or 3 am PST.
