@@ -14,20 +14,24 @@ This crypto trading bot automatically trades cryptocurrencies in Bittrex using t
    http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html <br></br>
    http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html
 
-3) Insert your AWS access key and secret key into main.tf at the top of the file
+3) Create an AWS IAM group that has Administrator access, and add your root IAM user to that account
+
+   http://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started_create-admin-group.html
+
+4) Insert your AWS access key and secret key into main.tf at the top of the file
 
    http://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys
 
-4) Insert your bittrex api key and secret key into index.php at the top of the file
+5) Insert your bittrex api key and secret key into index.php at the top of the file
 
-5) Put your key pair name (without the extension) into main.tf for the key_name variable, and add the same key name (with the extension i.e. xxx.pem) for both the private_key variables.
+6) Put your key pair name (without the extension) into main.tf for the key_name variable, and add the same key name (with the extension i.e. xxx.pem) for both the private_key variables.
 
-5) Open Powershell, or another shell, and cd into the location of the folder where you've cloned this repo
+7) Open Powershell, or another shell, and cd into the location of the folder where you've cloned this repo
 ```
 cd C:\Users\athompson\Desktop\bittrex
 ```
 
-6) Run 
+8) Run 
 ```
 terraform apply
 ```
