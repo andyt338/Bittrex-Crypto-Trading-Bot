@@ -9,7 +9,7 @@ This crypto trading bot automatically trades cryptocurrencies in Bittrex using t
    https://www.terraform.io/downloads.html <br></br>
    https://www.computerhope.com/issues/ch000549.htm
 
-2) Create a new key pair in AWS.  Download the .pem file and place it in this directory.  Convert the .pem file into a .ppk file for accessing the instance later, if you feel you will need to.  Only the .pem key is required though.
+2) Create a new key pair in AWS in the us-west-2 region.  Download the .pem file and place it in this directory.  Convert the .pem file into a .ppk file for accessing the instance later, if you feel you will need to.  Only the .pem key is required though.
 
    http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html <br></br>
    http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html
