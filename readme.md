@@ -20,7 +20,7 @@ This crypto trading bot automatically trades cryptocurrencies in Bittrex using t
 
 4) Insert your bittrex api key and secret key into index.php at the top of the file
 
-5) Put your key pair name (without the extension) into main.tf for both private_key variables, and the key_name variable.
+5) Put your key pair name (without the extension) into main.tf for the key_name variable, and add the same key name (with the extension i.e. xxx.pem) for both the private_key variables.
 
 5) Open Powershell, or another shell, and cd into the location of the folder where you've cloned this repo
 ```
